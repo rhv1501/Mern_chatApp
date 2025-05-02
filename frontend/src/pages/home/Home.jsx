@@ -9,7 +9,7 @@ const Home = () => {
     <div className="flex sm:h-[450px] md:h-[550px] rounded-lg overflow-hidden bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 max-h-screen">
       {/* Sidebar */}
       <div
-        className={`flex-1 h-full w-screen md:w-full  ${
+        className={`flex-1 h-full w-screen md:w-full  max-h-screen ${
           selectedConversation ? "hidden md:flex" : "flex"
         }`}
       >
@@ -18,7 +18,7 @@ const Home = () => {
 
       {/* Message Container */}
       <div
-        className={`flex-1 h-full w-screen md:w-full  ${
+        className={`flex-1 h-full w-screen md:w-full max-h-screen ${
           selectedConversation ? "flex" : "hidden md:flex"
         }`}
       >
