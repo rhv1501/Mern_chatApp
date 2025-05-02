@@ -6,7 +6,7 @@ const Home = () => {
   const { selectedConversation } = useConversation();
 
   return (
-    <div className="flex sm:h-[450px] md:h-[550px] rounded-lg overflow-hidden bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
+    <div className="flex sm:h-[450px] md:h-[550px] rounded-lg overflow-hidden bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 max-h-screen">
       {/* Sidebar */}
       <div
         className={`flex-1 h-full w-screen md:w-full  ${
